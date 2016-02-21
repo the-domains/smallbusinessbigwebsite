@@ -1,28 +1,40 @@
-name: smallbusinessbigwebsite
-favicon: null
-layout_spectrum: 0.7630903227254748
-typography_spectrum: 0.9068345567211509
 cta:
-  domain: null
   bucket: null
   version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+  domain: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.9254386
+  brandStrength: 1
+  lightness: 0
   brandColors:
     - '#A690A4'
     - '#B68F9D'
     - '#C8ACAB'
     - '#FBB9BF'
     - '#E376B7'
-  brandStrength: 0.7143211220391095
-  lightness: 0.8338615456596017
-  saturation: 0.08623427501879632
-  rhythmicContrast: 0.866091393167153
-purpose: []
+  rhythmicContrast: 0.216792
+typography_spectrum: 0.6447368
+layout_spectrum: 0.9229323
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: smallbusinessbigwebsite
